@@ -8,6 +8,11 @@
     <link href="css/style.css" rel="stylesheet" type="text/css">
 </head>
 
+<script>
+function GetQueryString(name) {var reg =new RegExp("(^|&)" + name + "=([^&]*)(&|$)","i");var r =window.location.search.substr(1).match(reg);var context ="";if (r !=null) 
+context =r[2];reg =null;r =null;return context ==null ||context =="" ||context =="undefined" ?"" :context;}
+</script>
+
 <body>
     <div>
         <label for="gt">1. gt: </label>
